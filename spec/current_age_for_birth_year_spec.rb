@@ -10,3 +10,6 @@ describe "current_age_for_birth_year method" do
     expect(age_of_person).to eq(19)
   end
 end
+def greeting(language="Ruby", name)
+  puts "Hello, #{name}. We heard you are a great #{language} programmer."
+end
